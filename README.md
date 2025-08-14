@@ -1,40 +1,34 @@
-## Create Aptos Dapp Boilerplate Template
+Team Name : Hash Hunters
 
-The Boilerplate template provides a starter dapp with all necessary dapp infrastructure and a simple wallet info implementation, transfer APT and a simple message board functionality to send and read a message on chain.
+Title: Proof of Product: Blockchain Against Counterfeits
 
-## Read the Boilerplate template docs
+Description:Supply chain management suffers from poor transparency, leading to issues such as redundancy, weak coordination, and lack of standardization. Product counterfeiting, increasingly difficult to detect visually, causes major losses for legitimate businesses. Existing solutions like RFID, AI, and QR codes have limitations, including vulnerability to duplication and high computational demands. There is a need for a secure, scalable method to ensure product authenticity and traceability throughout the supply chain.
 
-To get started with the Boilerplate template and learn more about the template functionality and usage, head over to the [Boilerplate template docs](https://learn.aptoslabs.com/en/dapp-templates/boilerplate-template)
+Technologies Used:
+MOVE
+TypeScript
+JavaScript
+Css
 
-## The Boilerplate template provides:
+ScreenShots:
 
-- **Folder structure** - A pre-made dapp folder structure with a `frontend` and `contract` folders.
-- **Dapp infrastructure** - All required dependencies a dapp needs to start building on the Aptos network.
-- **Wallet Info implementation** - Pre-made `WalletInfo` components to demonstrate how one can use to read a connected Wallet info.
-- **Transfer APT implementation** - Pre-made `transfer` components to send APT to an address.
-- **Message board functionality implementation** - Pre-made `message` components to send and read a message on chain
+![WhatsApp Image 2025-08-14 at 10 29 46_1d7d170f](https://github.com/user-attachments/assets/dcc74ae6-726e-46f4-8952-624e79cc834b)
+![WhatsApp Image 2025-08-14 at 10 30 42_f718adf4](https://github.com/user-attachments/assets/202aeefc-cc95-4917-8881-8683e530c68f)
+![WhatsApp Image 2025-08-14 at 10 32 32_4c05a5d8](https://github.com/user-attachments/assets/56f5a1d4-1917-4ace-926a-e74f814d80f9)
 
-## What tools the template uses?
+WorkFlow:
+Step 1: Secure Login: Show the manufacturer connecting their Petra wallet.
+Step 2: Add Product Details: Display the form where the manufacturer enters the brand, product ID, batch number, etc.
+Step 3: Generate QR Code: Show the transaction being approved in the wallet and the unique QR code appearing on the screen. Emphasize: "This QR code is now the product's unforgeable certificate of authenticity."
+Slide 7: Live Demo - Part 2: The Buyer's Experience
+(Show screenshots or a short video clip)
+Step 1: Scan the Product: Show the buyer's view with the camera opening to scan the QR code.
+Step 2: Instant Verification (The "Aha!" Moment):
+Success Case: Display the "Product is Verified" screen with all the details fetched directly from the blockchain. Point out that this data is trustworthy.
+Failure Case: Display the "Product is Fake" screen. Explain that this result appears because the QR data does not match any valid record on the blockchain.
 
-- React framework
-- Vite development tool
-- shadcn/ui + tailwind for styling
-- Aptos TS SDK
-- Aptos Wallet Adapter
-- Node based Move commands
-- [Vite-pwa](https://vite-pwa-org.netlify.app/)
 
-## What Move commands are available?
-
-The tool utilizes [aptos-cli npm package](https://github.com/aptos-labs/aptos-cli) that lets us run Aptos CLI in a Node environment.
-
-Some commands are built-in the template and can be ran as a npm script, for example:
-
-- `npm run move:publish` - a command to publish the Move contract
-- `npm run move:test` - a command to run Move unit tests
-- `npm run move:compile` - a command to compile the Move contract
-- `npm run move:upgrade` - a command to upgrade the Move contract
-- `npm run dev` - a command to run the frontend locally
-- `npm run deploy` - a command to deploy the dapp to Vercel
-
-For all other available CLI commands, can run `npx aptos` and see a list of all available commands.
+Team Members :
+CH.Meghana https://github.com/58meghana
+G.Rani 
+A.Mrudula https://github.com/MrudulaAdapala25
