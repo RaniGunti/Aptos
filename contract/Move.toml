@@ -1,0 +1,10 @@
+[package]
+name = "AuthentiChain"
+version = "1.0.0"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-framework.git", subdir = "aptos-move/framework/aptos-framework", rev = "mainnet" }
+
+[addresses]
+# We will let the command line provide the address for 'product_addr'
+product_addr = "0x6b5d016bca6a51aff0ca8057f2a515776b693951e6f3bc7c659142eeb47f0bc7"
